@@ -1,0 +1,33 @@
+{
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter Debug (Android Emulator)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "debug",
+      "device": "emulator-5554"
+    },
+    {
+      "name": "flutter_dome",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_dome (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_dome (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
