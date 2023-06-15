@@ -1,0 +1,7 @@
+ width: double.infinity, // 设置宽度为屏幕宽度
+          height: 300, // 设置高度为300
+          color: Colors.black, // 设置画布背景色
+          child: CustomPaint(
+            painter: SpherePainter(_controller.value, points), // 传递旋转角度
+            size: const Size(300, 300),
+          ),

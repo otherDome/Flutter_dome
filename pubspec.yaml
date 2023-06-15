@@ -11,6 +11,14 @@ dependencies:
   logger: ^1.0.0
   get: ^4.6.1
   cupertino_icons: ^1.0.2
+  animations: 2.0.4
+  flutter_animate: ^1.0.0
+  vector_math: ^2.1.4
+  zflutter:
+    git:
+      url: https://github.com/dk-plus-ui/zflutter.git
+      ref: fd242237657f8b98a70127a09d26661028fa9ed6
+      path: zflutter/
 
 dev_dependencies:
   flutter_test:
