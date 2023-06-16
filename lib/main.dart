@@ -4,11 +4,11 @@ import 'package:get/route_manager.dart';
 
 void main() {
   runApp(const MainApp());
+  // 在 runApp() 之后添加以下代码
 }
 
 class MainApp extends StatefulWidget {
   const MainApp({Key? key}) : super(key: key);
-
   @override
   State<StatefulWidget> createState() => _MainApp();
 }

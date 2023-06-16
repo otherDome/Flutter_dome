@@ -1,0 +1,3 @@
+flutter_icons:
+  android: true
+  image_path: "./assets/logo.jpg" # 替换为Android图标文件的路径

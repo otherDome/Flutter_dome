@@ -1,7 +1,7 @@
 name: flutter_dome
 description: A new Flutter project.
 publish_to: "none"
-version: 1.0.0+1
+version: 1.0.1
 environment:
   sdk: ">=3.0.3 <4.0.0"
 dependencies:
@@ -14,6 +14,7 @@ dependencies:
   animations: 2.0.4
   flutter_animate: ^1.0.0
   vector_math: ^2.1.4
+  flutter_native_splash: ^2.3.1
   zflutter:
     git:
       url: https://github.com/dk-plus-ui/zflutter.git
@@ -24,7 +25,9 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
 flutter:
   uses-material-design: true
   assets:
     - assets/planet.obj
+    - assets/logo.jpg

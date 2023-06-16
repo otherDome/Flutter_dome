@@ -1,0 +1,15 @@
+# flutter_native_splash:
+#   image: assets/logo.jpg # 广告图像的路径
+#   color: "#ffffff" # 广告背景颜色
+#   wait_for_timeout: true # 是否等待广告显示一段时间后才进入应用程序
+#   timeout: 30 # 广告显示的时间（秒）
+#   navigate_after_timeout: true # 广告显示完后是否自动进入应用程序
+#   android_disable_extras: true # 在Android上禁用额外的启动页（例如：白屏）
+#   android_gravity: center # Android上的广告位置
+#   ios_content_mode: center # iOS上的广告位置
+#   ios_gravity: center # iOS上的广告位置
+#   ios_background_color: "#ffffff" # iOS上的广告背景颜色
+#   ios_disable_extras: true # 在iOS上禁用额外的启动页（例如：白屏）
+#   ios_force_show: true # 是否强制显示广告
+#   ios_presentation_duration: 30 # 广告显示的时间（秒）
+#   ios_presentation_delay: 0 # 广告显示前的延迟时间（秒）
